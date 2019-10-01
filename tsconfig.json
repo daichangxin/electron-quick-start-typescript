@@ -1,13 +1,15 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
+    "module": "es6",
+    "moduleResolution": "node",
+    "target": "es6",
+    "noEmitHelpers": true,
     "sourceMap": true,
-    "outDir": "./bin",
-    "strict": true
+    "strict": true,
+    "strictNullChecks": false
   },
-  "exclude": [
-    "node_modules",
-    "out"
+  "include": [
+    "src/**/*",
+    "node_modules/**/*"
   ]
 }

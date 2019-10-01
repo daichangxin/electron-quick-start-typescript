@@ -1,8 +1,20 @@
 {
-  "dependencies": {
-    "fs-extra": "^7.0.1"
+  "name": "electron-quick-start-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp --gulpfile scripts/dev.js"
   },
+  "author": "daichangxin",
+  "license": "ISC",
   "devDependencies": {
-    "@types/fs-extra": "^5.0.5"
+    "electron": "^6.0.10",
+    "gulp": "^4.0.2",
+    "rollup": "^1.22.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.24.3",
+    "typescript": "^3.6.3"
   }
 }
