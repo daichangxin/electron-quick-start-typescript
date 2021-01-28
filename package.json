@@ -9,7 +9,7 @@
   "author": "daichangxin",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^6.0.10",
+    "electron": "^9.4.0",
     "gulp": "^4.0.2",
     "rollup": "^1.22.0",
     "rollup-plugin-commonjs": "^10.1.0",
